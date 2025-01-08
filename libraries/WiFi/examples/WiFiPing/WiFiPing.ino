@@ -72,7 +72,6 @@ void loop() {
   }
   else {
     Serial.println("Timeout on IP!");
-    Serial.println("Make sure your WiFi firmware version is at least 0.5.0");
   }
 
   // Ping Host
@@ -89,7 +88,6 @@ void loop() {
   }
   else {
     Serial.println("Timeout on host!");
-    Serial.println("Make sure your WiFi firmware version is at least 0.5.0");
   }
 
   Serial.println();
